@@ -22,18 +22,18 @@ var obj1 = {
 
         
     }
-    console.log(this.numberOfCockies);
-    console.log(hours);
-    console.log(this.counter);
+    //console.log(this.numberOfCockies);
+    //console.log(hours);
+    //console.log(this.counter);
     var parent = document.getElementById('header');
-    console.log(parent);
+    //console.log(parent);
     var h = document.createElement('h2');
     parent.appendChild(h);
     h.textContent = `Seattle:`;
     var p = document.createElement('ul');
    
     parent.appendChild(p);
-    console.log(p);
+    //console.log(p);
     for (var i=0; i<hours.length;i++){
         var listItems = document.createElement('li');
                 p.appendChild(listItems);
@@ -73,18 +73,18 @@ var obj2 = {
 
         
     }
-    console.log(this.numberOfCockies);
-    console.log(hours);
-    console.log(this.counter);
+    // console.log(this.numberOfCockies);
+    // console.log(hours);
+    // console.log(this.counter);
     var parent = document.getElementById('header');
-    console.log(parent);
+    //console.log(parent);
     var h = document.createElement('h2');
     parent.appendChild(h);
     h.textContent = 'Tokyo';
     var p = document.createElement('ul');
    
     parent.appendChild(p);
-    console.log(p);
+    //console.log(p);
     for (var i=0; i<hours.length;i++){
         var listItems = document.createElement('li');
                 p.appendChild(listItems);
@@ -120,18 +120,18 @@ var obj3 = {
 
         
     }
-    console.log(this.numberOfCockies);
-    console.log(hours);
-    console.log(this.counter);
+    // console.log(this.numberOfCockies);
+    // console.log(hours);
+    // console.log(this.counter);
     var parent = document.getElementById('header');
-    console.log(parent);
+    //console.log(parent);
     var h = document.createElement('h2');
     parent.appendChild(h);
     h.textContent = `Dubai:`;
     var p = document.createElement('ul');
    
     parent.appendChild(p);
-    console.log(p);
+    //console.log(p);
     for (var i=0; i<hours.length;i++){
         var listItems = document.createElement('li');
                 p.appendChild(listItems);
@@ -166,18 +166,18 @@ var obj4 = {
 
         
     }
-    console.log(this.numberOfCockies);
-    console.log(hours);
-    console.log(this.counter);
+    // console.log(this.numberOfCockies);
+    // console.log(hours);
+    // console.log(this.counter);
     var parent = document.getElementById('header');
-    console.log(parent);
+    //console.log(parent);
     var h = document.createElement('h2');
     parent.appendChild(h);
     h.textContent = `Paris:`;
     var p = document.createElement('ul');
    
     parent.appendChild(p);
-    console.log(p);
+    //console.log(p);
     for (var i=0; i<hours.length;i++){
         var listItems = document.createElement('li');
                 p.appendChild(listItems);
@@ -212,18 +212,18 @@ var obj5 = {
 
         
     }
-    console.log(this.numberOfCockies);
-    console.log(hours);
-    console.log(this.counter);
+    // console.log(this.numberOfCockies);
+    // console.log(hours);
+    // console.log(this.counter);
     var parent = document.getElementById('header');
-    console.log(parent);
+    //console.log(parent);
     var h = document.createElement('h2');
     parent.appendChild(h);
     h.textContent = `Lima:`;
     var p = document.createElement('ul');
    
     parent.appendChild(p);
-    console.log(p);
+    //console.log(p);
     for (var i=0; i<hours.length;i++){
         var listItems = document.createElement('li');
                 p.appendChild(listItems);

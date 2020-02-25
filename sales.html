@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cookies World</title>
     <style>
+        body{
+            background-color:antiquewhite;
+        }
+        
+        h1{
+        text-align: center;
+        font-style:italic;
+        animation: moveleft 3s ease-in;
+       
+        }
+        
          ul{
             list-style: none;
         }
@@ -27,11 +38,25 @@
     background-color: black;
     color: white;
 }
+@keyframes moveleft
+{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        transform: translate(-50px);
+    opacity: 1;
+    }
+}
     </style>
 </head>
 <body>
     <header id="header">
+        <h1>Coockies Statistics</h1>
         <ul>
+            
             <li><a href="index.html">Home</a></li>
         </ul>
 

@@ -23,6 +23,7 @@ function cookies(max, min, AVG, location) {
 
 
 cookies.prototype.randomCustomer = function () {
+    
     for (var i = 0; i < hours.length; i++) {
         var result=[];
         this.customerNum = Math.floor(Math.random() * (this.max - this.min) + this.min);
@@ -136,7 +137,7 @@ tr1.appendChild(cell4);
 cell4.textContent = "Total";
 //console.log(objArray[1].numberOfCockies[0]);
 var x=0;
-
+var TotalSum=0;
 for (var j = 0; j < hours.length; j++) {
     var sumPerHour=0;
     var cell5 = document.createElement('td');
@@ -147,13 +148,18 @@ for (var j = 0; j < hours.length; j++) {
         
         sumPerHour=sumPerHour + objArray[i].numberOfCockies[x];}
     x+=1;
-    
+    TotalSum+=sumPerHour;
     
     cell5.textContent =sumPerHour ;
     // console.log(obj5.randomCustomer());
     cell5.width = '150';
     cell5.height = '40';
     }
+    var cell6 = document.createElement('td');
+    tr1.appendChild(cell6);
+    cell6.textContent =TotalSum ;
+    cell6.width = '150';
+    cell6.height = '40';
 }
 
 

@@ -34,8 +34,7 @@ cookies.prototype.randomCustomer = function () {
         this.numberOfCockies[i] = this.customerNum;
        
     }
-    result.push(this.numberOfCockies);
-    return result;
+    
 
 }
 

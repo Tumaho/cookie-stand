@@ -9,12 +9,112 @@
         body{
             background-color: antiquewhite;
         }
+        .main-images
+        {
+            margin-top: 10%;
+
+        }
        
+        #links{
+            padding-top: 3%;
+            text-align: center;
+            padding-right: 3%;
+        }
+        h1{
+            text-align: center;
+            font-style:italic;
+            animation: moveleft 3s ease-in;
+       
+        }
+       #links ul{
+            list-style: none;
+        }
+        #links ul li
+        {
+            display: inline-block;
+            padding: 10px;
+            border: 1px  solid red;
+            width: 100px;
+            height: 20px;
+            border-radius:26px
+        }
+
+        #links ul li a
+{
+    text-decoration: none;
+}
+#links ul :hover
+{
+    background-color: #ffffff;
+}
+@keyframes moveleft
+{
+    0%
+    {
+opacity: 0;
+    }
+    100%
+    {
+        transform: translate(-50px);
+    opacity: 1;
+    }
+}
     </style>
 </head>
 <body>
-    <a href="sales.html">CLICK ME!</a>
+    <header>
+        <h1>Cookies Store</h1>
+        <div id="links">
+            <ul>
+           <li><a href="index.html">Home</a></li>
+          <li> <a href="sales.html">Sales Statistics</a></li>
+          <li><a href=" ">About Us</a></li> 
+        </ul>
+        </div>
+
+    </header>
+    <main>
+        <div>
+            <h2>Stores Locations</h2>
+        </div>
+        <div>
+            <ul>
+                <li>City: Seatle</li>
+                <li>Address: 901 12th Ave, Seattle, WA 98122, United States</li>
+                <li> Phone: +1 206-296-6000</li>
+            </ul>
+            <ul>
+                <li>City: Tokyo</li>
+                <li>Address: Address: 7 Chome-3-1 Hongo, Bunkyo City, Tokyo 113-8654, Japan</li>
+                <li> Phone: +81 286-296-6740</li>
+            </ul>
+            <ul>
+                <li>City: Dubai</li>
+                <li>Address: Academic City Emirates Road - Exit 49 - Dubai - United Arab Emirates</li>
+                <li> Phone: +971 206-296-6000</li>
+            </ul>
+            <ul>
+                <li>City: Paris</li>
+                <li>Address: 15-21 Rue de l'École de Médecine, 75006 Paris, France</li>
+                <li> Phone: +33 206-296-6000</li>
+            </ul>
+            <ul>
+                <li>City: Lima</li>
+                <li>Address: 901 12th Ave, Lima, WA 98122, Peru</li>
+                <li> Phone: +1 206-296-6000</li>
+            </ul>
+        </div>
+    
+    <div class="main-images">
     <img src="img/salmon.png" width="200" height="100">
+    <img src="img/cutter.jpeg" width="200" height="100">
+    <img src="img/family.jpg" width="200" height="100">
+    <img src="img/fish.jpg" width="200" height="100">
+    <img src="img/frosted-cookie.jpg" width="200" height="100">
+    <!-- <img src="img/salmon copy.png" width="200" height="100"> -->
+    <img src="img/shirt.jpg" width="200" height="100">
+</div>
+</main>
     
     <script src="JS/app.js"></script>
 </body>

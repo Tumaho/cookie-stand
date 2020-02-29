@@ -182,13 +182,10 @@ form.addEventListener('submit', function (event) {
     var inputMaximum = parseInt( event.target.max.value);
     var inputMinimum = parseInt( event.target.min.value);
     var inputAVG = parseFloat( event.target.avg.value);
-    console.log(inputAVG);
     if(inputMaximum > inputMinimum){
 
     h.removeChild(h.lastChild);
     var objForm = new cookies(inputMaximum, inputMinimum, inputAVG, inputLocation, []);
-    console.log(objForm);
-    console.log(obj1);
     objForm.randomCustomer();
     objForm.Tables();
 
